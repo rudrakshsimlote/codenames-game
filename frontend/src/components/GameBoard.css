@@ -1,0 +1,43 @@
+/* src/components/GameBoard.css */
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: grey;
+    transition: background-color 0.3s;
+  }
+  
+  .card.revealed {
+    background-color: #e0e0e0;
+  }
+  
+  .card.red {
+    background-color: #ff4d4d;
+  }
+  
+  .card.blue {
+    background-color: #4d79ff;
+  }
+  
+  .card.assassin {
+    background-color: black;
+    color: white;
+  }
+  
+  .card:hover {
+    background-color: #d1d1d1;
+  }
+  
