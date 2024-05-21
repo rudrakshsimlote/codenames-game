@@ -92,19 +92,25 @@ A web-based implementation of the popular board game Codenames. This project inc
 
 codenames-game/
 ├── backend/
-│ ├── server.js
-│ ├── serviceAccountKey.json
-│ └── package.json
+│   ├── server.js
+│   ├── serviceAccountKey.json
+│   └── package.json
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── App.tsx
-│ │ ├── index.tsx
-│ │ ├── firebaseConfig.ts
-│ │ └── ...
-│ ├── .env
-│ └── package.json
+│   ├── public/
+│   │   ├── index.html
+│   │   └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── GameBoard.tsx
+│   │   │   ├── Spymaster.tsx
+│   │   │   └── ...
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   ├── firebaseConfig.ts
+│   │   └── ...
+│   ├── .env
+│   ├── package.json
+│   └── ...
 ├── README.md
 └── ...
 
